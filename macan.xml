@@ -3,9 +3,8 @@
 <manifest>
   <remote name="gh" fetch="https://github.com" />
 
-  <!-- Device + vendor (fork of OnePlus-SM8850-Development with OSS kernel fixes) -->
+  <!-- Device tree (fork of OnePlus-SM8850-Development). macan blobs are extracted from the stock OTA, see README -->
   <project name="cfernande1408/android_device_oneplus_macan" path="device/oneplus/macan" remote="gh" revision="lineage-24.0-oss" />
-  <project name="cfernande1408/proprietary_vendor_oneplus_macan" path="vendor/oneplus/macan" remote="gh" revision="lineage-24.0-oss" clone-depth="1" />
 
   <!-- LineageOS -->
   <project name="LineageOS/android_device_oneplus_sm8850-common" path="device/oneplus/sm8850-common" remote="gh" revision="lineage-24.0" />
